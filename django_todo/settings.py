@@ -29,6 +29,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['pt-70-django-todo-app.herokuapp.com']
 
 
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -76,9 +77,9 @@ WSGI_APPLICATION = 'django_todo.wsgi.application'
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
 DATABASES = {
-    'default': dj_database_url.parse('postgres://mcaoiobciiokhl:6c134fbad092acd5b27095823bd8172a63dbb6b12afa9fd80a4b16ac7c6643e9@ec2-18-214-119-135.compute-1.amazonaws.com:5432/d80apcob36lc5b')
-        
-    
+    'default': dj_database_url.parse
+    ('postgres://mcaoiobciiokhl:6c134fbad092acd5b27095823bd8172a63dbb6b12afa9fd80a4b16ac7c6643e9@ec2-18-214-119-135.compute-1.amazonaws.com:5432/d80apcob36lc5b')
+       
 }
 
 
